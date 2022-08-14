@@ -1,0 +1,22 @@
+.wrap {
+  width: 100%;
+  position: relative;
+  margin-top: 24px;
+}
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.input {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 16px;
+  font-size: 1.2em;
+  height: 50px;
+}
+.icon {
+  position: absolute;
+  right: 8px;
+  bottom: 9px;
+}

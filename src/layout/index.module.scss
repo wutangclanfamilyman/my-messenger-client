@@ -1,0 +1,40 @@
+@import '../styles/vars';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap {
+  background-color: $white;
+  max-width: 1000px;
+  min-height: 720px;
+  padding: 70px;
+  display: flex;
+}
+.imageWrap {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+.formWrap {
+  max-width: 50%;
+  flex: 0 0 50%;
+  height: 100%;
+}
+.title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.messenger_container {
+  background-color: $white;
+  max-width: calc(100vw - 80px);
+  width: 100%;
+  border-radius: 12px;
+  height: calc(100vh - 80px);
+  box-shadow: 0px 0px 4px rgba($white, 0.75);
+}

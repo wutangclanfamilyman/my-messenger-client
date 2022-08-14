@@ -1,0 +1,26 @@
+@import '../../styles/vars';
+
+.btn {
+  border: none;
+  background: $pink;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  min-width: 180px;
+  padding: 16px;
+  font-size: 1.25em;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 1px 1px 10px rgba($pink, 0.5);
+  }
+  &:disabled {
+    background: $grey;
+    color: $white;
+    &:hover {
+      cursor: default;
+      box-shadow: none;
+    }
+  }
+}
